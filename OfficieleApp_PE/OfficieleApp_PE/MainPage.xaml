@@ -8,7 +8,7 @@
              x:Class="OfficieleApp_PE.MainPage">
 
     <Grid>
-        <map:Map MapType="Street" HasZoomEnabled="True">
+        <map:Map x:Name="MyMap" MapType="Street" HasZoomEnabled="True">
             <map:Map.ItemTemplate>
                 <DataTemplate>
                     <map:Pin Position="{Binding Position}"
